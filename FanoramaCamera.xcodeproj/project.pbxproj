@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D7768F228BDEB51003134F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7768F128BDEB51003134F0 /* AppDelegate.swift */; };
+		2D7768F428BDEB51003134F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7768F328BDEB51003134F0 /* SceneDelegate.swift */; };
+		2D7768F628BDEB51003134F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7768F528BDEB51003134F0 /* ViewController.swift */; };
+		2D7768F928BDEB51003134F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7768F728BDEB51003134F0 /* Main.storyboard */; };
+		2D7768FB28BDEB53003134F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7768FA28BDEB53003134F0 /* Assets.xcassets */; };
+		2D7768FE28BDEB53003134F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7768FC28BDEB53003134F0 /* LaunchScreen.storyboard */; };
+		2D77690928BDEB53003134F0 /* FanoramaCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D77690828BDEB53003134F0 /* FanoramaCameraTests.swift */; };
+		2D77691328BDEB53003134F0 /* FanoramaCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D77691228BDEB53003134F0 /* FanoramaCameraUITests.swift */; };
+		2D77691528BDEB53003134F0 /* FanoramaCameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D77691428BDEB53003134F0 /* FanoramaCameraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D77690528BDEB53003134F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7768E628BDEB51003134F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7768ED28BDEB51003134F0;
+			remoteInfo = FanoramaCamera;
+		};
+		2D77690F28BDEB53003134F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7768E628BDEB51003134F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7768ED28BDEB51003134F0;
+			remoteInfo = FanoramaCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D7768EE28BDEB51003134F0 /* FanoramaCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanoramaCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7768F128BDEB51003134F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D7768F328BDEB51003134F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D7768F528BDEB51003134F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D7768F828BDEB51003134F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D7768FA28BDEB53003134F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D7768FD28BDEB53003134F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D7768FF28BDEB53003134F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D77690428BDEB53003134F0 /* FanoramaCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanoramaCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D77690828BDEB53003134F0 /* FanoramaCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanoramaCameraTests.swift; sourceTree = "<group>"; };
+		2D77690E28BDEB53003134F0 /* FanoramaCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanoramaCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D77691228BDEB53003134F0 /* FanoramaCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanoramaCameraUITests.swift; sourceTree = "<group>"; };
+		2D77691428BDEB53003134F0 /* FanoramaCameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanoramaCameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D7768EB28BDEB51003134F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690128BDEB53003134F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690B28BDEB53003134F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D7768E528BDEB51003134F0 = {
+			isa = PBXGroup;
+			children = (
+				2D7768F028BDEB51003134F0 /* FanoramaCamera */,
+				2D77690728BDEB53003134F0 /* FanoramaCameraTests */,
+				2D77691128BDEB53003134F0 /* FanoramaCameraUITests */,
+				2D7768EF28BDEB51003134F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D7768EF28BDEB51003134F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D7768EE28BDEB51003134F0 /* FanoramaCamera.app */,
+				2D77690428BDEB53003134F0 /* FanoramaCameraTests.xctest */,
+				2D77690E28BDEB53003134F0 /* FanoramaCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D7768F028BDEB51003134F0 /* FanoramaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				2D7768F128BDEB51003134F0 /* AppDelegate.swift */,
+				2D7768F328BDEB51003134F0 /* SceneDelegate.swift */,
+				2D7768F528BDEB51003134F0 /* ViewController.swift */,
+				2D7768F728BDEB51003134F0 /* Main.storyboard */,
+				2D7768FA28BDEB53003134F0 /* Assets.xcassets */,
+				2D7768FC28BDEB53003134F0 /* LaunchScreen.storyboard */,
+				2D7768FF28BDEB53003134F0 /* Info.plist */,
+			);
+			path = FanoramaCamera;
+			sourceTree = "<group>";
+		};
+		2D77690728BDEB53003134F0 /* FanoramaCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D77690828BDEB53003134F0 /* FanoramaCameraTests.swift */,
+			);
+			path = FanoramaCameraTests;
+			sourceTree = "<group>";
+		};
+		2D77691128BDEB53003134F0 /* FanoramaCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D77691228BDEB53003134F0 /* FanoramaCameraUITests.swift */,
+				2D77691428BDEB53003134F0 /* FanoramaCameraUITestsLaunchTests.swift */,
+			);
+			path = FanoramaCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D7768ED28BDEB51003134F0 /* FanoramaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D77691828BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCamera" */;
+			buildPhases = (
+				2D7768EA28BDEB51003134F0 /* Sources */,
+				2D7768EB28BDEB51003134F0 /* Frameworks */,
+				2D7768EC28BDEB51003134F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanoramaCamera;
+			productName = FanoramaCamera;
+			productReference = 2D7768EE28BDEB51003134F0 /* FanoramaCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D77690328BDEB53003134F0 /* FanoramaCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D77691B28BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCameraTests" */;
+			buildPhases = (
+				2D77690028BDEB53003134F0 /* Sources */,
+				2D77690128BDEB53003134F0 /* Frameworks */,
+				2D77690228BDEB53003134F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D77690628BDEB53003134F0 /* PBXTargetDependency */,
+			);
+			name = FanoramaCameraTests;
+			productName = FanoramaCameraTests;
+			productReference = 2D77690428BDEB53003134F0 /* FanoramaCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D77690D28BDEB53003134F0 /* FanoramaCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D77691E28BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCameraUITests" */;
+			buildPhases = (
+				2D77690A28BDEB53003134F0 /* Sources */,
+				2D77690B28BDEB53003134F0 /* Frameworks */,
+				2D77690C28BDEB53003134F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D77691028BDEB53003134F0 /* PBXTargetDependency */,
+			);
+			name = FanoramaCameraUITests;
+			productName = FanoramaCameraUITests;
+			productReference = 2D77690E28BDEB53003134F0 /* FanoramaCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D7768E628BDEB51003134F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2D7768ED28BDEB51003134F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2D77690328BDEB53003134F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2D7768ED28BDEB51003134F0;
+					};
+					2D77690D28BDEB53003134F0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2D7768ED28BDEB51003134F0;
+					};
+				};
+			};
+			buildConfigurationList = 2D7768E928BDEB51003134F0 /* Build configuration list for PBXProject "FanoramaCamera" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D7768E528BDEB51003134F0;
+			productRefGroup = 2D7768EF28BDEB51003134F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D7768ED28BDEB51003134F0 /* FanoramaCamera */,
+				2D77690328BDEB53003134F0 /* FanoramaCameraTests */,
+				2D77690D28BDEB53003134F0 /* FanoramaCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7768EC28BDEB51003134F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7768FE28BDEB53003134F0 /* LaunchScreen.storyboard in Resources */,
+				2D7768FB28BDEB53003134F0 /* Assets.xcassets in Resources */,
+				2D7768F928BDEB51003134F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690228BDEB53003134F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690C28BDEB53003134F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7768EA28BDEB51003134F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7768F628BDEB51003134F0 /* ViewController.swift in Sources */,
+				2D7768F228BDEB51003134F0 /* AppDelegate.swift in Sources */,
+				2D7768F428BDEB51003134F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690028BDEB53003134F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D77690928BDEB53003134F0 /* FanoramaCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D77690A28BDEB53003134F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D77691528BDEB53003134F0 /* FanoramaCameraUITestsLaunchTests.swift in Sources */,
+				2D77691328BDEB53003134F0 /* FanoramaCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D77690628BDEB53003134F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7768ED28BDEB51003134F0 /* FanoramaCamera */;
+			targetProxy = 2D77690528BDEB53003134F0 /* PBXContainerItemProxy */;
+		};
+		2D77691028BDEB53003134F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7768ED28BDEB51003134F0 /* FanoramaCamera */;
+			targetProxy = 2D77690F28BDEB53003134F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D7768F728BDEB51003134F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7768F828BDEB51003134F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D7768FC28BDEB53003134F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D7768FD28BDEB53003134F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D77691628BDEB53003134F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D77691728BDEB53003134F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D77691928BDEB53003134F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XR7JFFTRDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FanoramaCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take picture";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sony.shinagawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.sony.armap.shinagawa;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D77691A28BDEB53003134F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XR7JFFTRDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FanoramaCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take picture";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record audio";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sony.shinagawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.sony.armap.shinagawa;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D77691C28BDEB53003134F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.FanoramaCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanoramaCamera.app/FanoramaCamera";
+			};
+			name = Debug;
+		};
+		2D77691D28BDEB53003134F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.FanoramaCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanoramaCamera.app/FanoramaCamera";
+			};
+			name = Release;
+		};
+		2D77691F28BDEB53003134F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.FanoramaCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanoramaCamera;
+			};
+			name = Debug;
+		};
+		2D77692028BDEB53003134F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.FanoramaCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanoramaCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D7768E928BDEB51003134F0 /* Build configuration list for PBXProject "FanoramaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D77691628BDEB53003134F0 /* Debug */,
+				2D77691728BDEB53003134F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D77691828BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D77691928BDEB53003134F0 /* Debug */,
+				2D77691A28BDEB53003134F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D77691B28BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D77691C28BDEB53003134F0 /* Debug */,
+				2D77691D28BDEB53003134F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D77691E28BDEB53003134F0 /* Build configuration list for PBXNativeTarget "FanoramaCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D77691F28BDEB53003134F0 /* Debug */,
+				2D77692028BDEB53003134F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D7768E628BDEB51003134F0 /* Project object */;
+}
